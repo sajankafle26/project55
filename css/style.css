@@ -1,0 +1,32 @@
+.banner
+{
+    background: url(https://www.prabhubank.com/assets/backend/uploads/Banner/banner_2.jpg);
+    height: 70vh;
+    background-size: cover;
+}
+ 
+.m 
+{
+    max-width: 500px;
+  background: rgba(255, 255, 255, 0.582);
+}
+
+@media(max-width: 480px)
+{
+    .m {
+    width: 90%;
+    }
+}
+.abc 
+{
+    top: 20px;
+}
+footer 
+{
+    background:url(https://www.prabhubank.com/assets/frontend/img/footer-pattern.png) red;
+    color: #fff;
+}
+footer ul 
+{
+    margin: 0; padding: 0; list-style: none;
+}
